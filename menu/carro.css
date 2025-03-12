@@ -71,8 +71,8 @@ div {
 .div1a, .div1b{
     width: 20%;
     position: relative;
-    bottom: 18%;
-    left: 37%;
+    bottom: 10%;
+    left: 47%;
 }
 
 .div1 p, .div2 p {
@@ -120,7 +120,7 @@ footer section{
 }
 
 .footer_p1 {
-    margin-left: 10rem;
+    margin-left: 30rem;
 }
 footer a {
     color:aliceblue ;
