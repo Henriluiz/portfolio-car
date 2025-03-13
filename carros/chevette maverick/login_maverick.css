@@ -101,7 +101,7 @@ footer section{
     margin-left: 10rem;
 }
 footer a {
-    color:aliceblue ;
+    color:orange;
     border-radius: 20px;
 }
 .footer_p2 {
@@ -109,8 +109,199 @@ footer a {
 }
 
 .footer_p3{
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 1rem;
+    font-size: small;
+}
+/* Celulares */
+@media screen and (min-width: 390px) and (max-width: 430px) {
+    header {
+        padding: 1.2rem;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 90vh; /* Altura total da viewport */
+    }
+    
+    .login-menu {
+        text-align: center;
+        background-color: #8E8E7E; /* Para destacar o menu */
+        padding: 3.0rem;
+        border-radius: 57px; /* Bordas arredondadas */
+    }
+    .login-menu input {
+        display: block;
+        margin-bottom: 0.9rem;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #A8A87F;
+        outline: none;
+    }
+      
+
+
+    footer section {
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .footer_p1 {
+        margin: 0rem;
+        padding: 1rem;
+    }
+
+    .footer_p2 {
+        margin: 0rem;
+        padding: 0.2rem;
+        margin-bottom: 0.5rem;
+    }
+}
+/* Tablets */
+@media screen and (min-width: 430px) and (max-width: 1116px) {
+    header {
+        padding: 1.2rem;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 90vh; /* Altura total da viewport */;
+    }
+    
+    .login-menu {
+        text-align: center;
+        background-color: #8E8E7E; /* Para destacar o menu */
+        padding: 3rem;
+        border-radius: 57px; /* Bordas arredondadas */
+    }
+    .login-menu input {
+        display: block;
+        margin-bottom: 0.9rem;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #A8A87F;
+        outline: none;
+    }
+      
+
+
+    footer section {
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .footer_p1 {
+        margin: 0rem;
+        padding: 1rem;
+    }
+
+    .footer_p2 {
+        margin: 0rem;
+        padding: 0.2rem;
+        margin-bottom: 0.5rem;
+    }
+}
+/* Celulares pequenos */
+@media screen and (max-width: 390px) {
+    header {
+        padding: 1.2rem;
+        font-size: small;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 90vh; /* Altura total da viewport */
+    }
+    
+    .login-menu {
+        text-align: center;
+        background-color: #8E8E7E; /* Para destacar o menu */
+        padding: 3.0rem;
+        border-radius: 57px; /* Bordas arredondadas */
+    }
+    .login-menu input {
+        display: block;
+        margin-bottom: 0.9rem;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #A8A87F;
+        outline: none;
+    }
+      
+    footer section {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: small;
+    }
+
+    .footer_p1 {
+        margin: 0rem;
+        padding: 1rem;
+    }
+
+    .footer_p2 {
+        margin: 0rem;
+        padding: 0.2rem;
+        margin-bottom: 0.5rem;
+    }
+}
+/* Celulares Minúsculos */
+@media screen and (mix-width: 200px){
+    header {
+        padding: 1.2rem;
+        font-size: small;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 170vh; /* Altura total da viewport */
+    }
+    
+    .login-menu {
+        text-align: center;
+        background-color: #8E8E7E; /* Para destacar o menu */
+        padding: 3.0rem;
+        border-radius: 57px; /* Bordas arredondadas */
+    }
+    .login-menu input {
+        display: block;
+        margin-bottom: 0.9rem;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #A8A87F;
+        outline: none;
+    }
+      
+    footer section {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: small;
+    }
+
+    .footer_p1 {
+        margin: 0rem;
+        padding: 1rem;
+    }
+
+    .footer_p2 {
+        margin: 0rem;
+        padding: 0.2rem;
+        margin-bottom: 0.5rem;
+    }
 }
