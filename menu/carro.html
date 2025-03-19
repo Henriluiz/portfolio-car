@@ -7,6 +7,20 @@
         <title>Imperial Motors</title>
         <link rel="stylesheet" href="./carro.css">
         <link rel="icon" href="./imgs/plantilla-logotipo-concesionario-automoviles-gradiente-vectorial-gratuito_847135-2001.avif" type="image/avif">
+        <script>
+            function irParaPagina1() {
+                window.location.href = "./carros/chevette/login_maverick.html"; // Redireciona para a página 1
+            }
+            function irParaPagina2() {
+                window.location.href = "./carros/opala/login_opala.html"; // Redireciona para a página 2
+            }
+            function irParaPagina3() {
+                window.location.href = "./carros/mercedes/login_bens500.html"; // Redireciona para a página 3
+            }
+            function irParaPagina4() {
+                window.location.href = "./carros/ferrari/login_ferrari_308gts.html"; // Redireciona para a página 2
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -19,14 +33,14 @@
                     <img src="./imgs_menu/Chevette_Maverick.jpg" alt="Chevette Maverick">
                     <h3>Chevette Maverick</h3>
                     <p>R$30.000</p>
-                    <button class="div1a" href="./carros/chevette/login_maverick.html">Compre</button>
+                    <button class="div1a" onclick="irParaPagina1()">Compre</button>
                     </div>
                 </div>
                 <div class="div2">
                     <img src="./imgs_menu/opala.jpg" alt="Opala">
                     <h3>Opala</h3>
                     <p>R$100.000</p>
-                    <button class="div1b" href="./carros/opala/login_opala.html">Compre</button>
+                    <button class="div1b" onclick="irParaPagina2()">Compre</button>
                 </div>
             </section>
             <section class="divs">
@@ -34,14 +48,14 @@
                     <img src="./imgs_menu/mercedes_bens500slc.jpg" alt="Mercedes Bens 500 slc 1971-1981">
                     <h3>Mercedes Bens 500 slc</h3>
                     <p>R$145.000</p>
-                    <button class="div1a" href="./carros/mercedes/login_bens500.html">Compre</button>
+                    <button class="div1a" onclick="irParaPagina3()">Compre</button>
                     </div>
                 </div>
                 <div class="div2">
                     <img src="./imgs_menu/ferrai308gts1978.jpg" alt="Ferari 308 GTS 1978">
                     <h3>Ferari 308 GTS</h3>
                     <p>R$500.000</p>
-                    <button class="div1b" href="./carros/ferrari/login_ferrari_308gts.html">Compre</button>
+                    <button class="div1b" onclick="irParaPagina4()">Compre</button>
                 </div>
             </section>
         </main>
