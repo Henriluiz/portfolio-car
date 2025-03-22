@@ -236,14 +236,14 @@ footer a {
         display: flex;
         justify-content: center; /* Centraliza horizontalmente */
         align-items: center; /* Centraliza verticalmente */
-        height: 120vh; /* Altura total da viewport */
+        height: 140vh; /* Altura total da viewport */
     }
 
     .login-menu {
         text-align: center;
         background-color: #8E8E7E; /* Para destacar o menu */
         padding: 2.9rem;
-        width: 9rem;
+        width: 8rem;
         border-radius: 67px; /* Bordas arredondadas */
     }
 
