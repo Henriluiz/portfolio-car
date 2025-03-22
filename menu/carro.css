@@ -136,6 +136,7 @@ footer a {
     padding-bottom: 1rem;
 }
 
+/* Trabalha e organizar corretamente essas dimensões */
 
 @media screen and (max-width: 430px) {
     header {
