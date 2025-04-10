@@ -7,29 +7,11 @@ Bem-vindo ao repositório do **Imperial Motors**, um site voltado para a venda d
 Nosso catálogo inclui os seguintes clássicos:
 
 - **Chevrolet Chevette**
-  - Potência: 68 cv
-  - Desempenho: Econômico e resistente, ideal para quem ama nostalgia com praticidade.
-  - Preço: R$ 25.000
-
 - **Ford Maverick**
-  - Potência: Até 199 cv (V8)
-  - Desempenho: Forte, imponente e cheio de estilo.
-  - Preço: R$ 75.000
-
 - **Chevrolet Opala**
-  - Potência: Até 171 cv (6 cilindros)
-  - Desempenho: Conforto e potência em um clássico nacional.
-  - Preço: R$ 60.000
-
 - **Mercedes-Benz 500 SLC**
-  - Potência: 240 cv
-  - Desempenho: Luxo europeu com motor potente.
-  - Preço: R$ 180.000
-
 - **Ferrari 308 GTS**
-  - Potência: 255 cv
-  - Desempenho: Design italiano com alto desempenho esportivo.
-  - Preço: R$ 800.000
+- Entre outros!
 
 ## Funcionalidades do site
 
@@ -42,17 +24,17 @@ Nosso catálogo inclui os seguintes clássicos:
 
 ![Tela Inicial do Site](./caminho/para/sua/imagem.png)
 
-> Substitua o caminho acima pela imagem incluída no repositório (`./screenshots/homepage.png`, por exemplo).
 
 ## Link do Projeto Hospedado
 
-[Acesse o site aqui](https://link-do-projeto.com)
-
-> Substitua pelo link real onde o projeto está hospedado (ex: GitHub Pages, Vercel, Netlify, etc).
+[Acesse o site aqui]([https://link-do-projeto.com](https://henriluiz.github.io/portfolio-car/))
 
 ## Tecnologias Utilizadas
 
-- HTML5, CSS3 e JavaScript
+<div style="display: inline_block">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
 - Layout responsivo
 - Imagens otimizadas
 - Estrutura modular de páginas
@@ -62,3 +44,7 @@ Nosso catálogo inclui os seguintes clássicos:
 ### Contato
 
 Caso queira contribuir ou tenha sugestões, sinta-se à vontade para abrir uma *issue* ou *pull request*.
+
+---
+
+Feito com ❤️ por [Luiz Azevedo](https://github.com/Henriluiz).
