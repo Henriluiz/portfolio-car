@@ -28,7 +28,7 @@ Nosso catálogo inclui os seguintes clássicos:
 
 ## Link do Projeto Hospedado
 
-[Acesse o site aqui]([https://link-do-projeto.com](https://henriluiz.github.io/portfolio-car/))
+[Acesse o site aqui](https://henriluiz.github.io/portfolio-car/)
 
 ## Tecnologias Utilizadas
 
