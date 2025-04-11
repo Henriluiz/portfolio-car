@@ -22,7 +22,8 @@ Nosso catálogo inclui os seguintes clássicos:
 
 ## Captura de Tela
 
-![Tela Inicial do Site](./caminho/para/sua/imagem.png)
+![Tela Inicial do Site](.imgs/capturadetela2.png)
+![Tela Menu do Site](.imgs/capturadetela1.png)
 
 
 ## Link do Projeto Hospedado
